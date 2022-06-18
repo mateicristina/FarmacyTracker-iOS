@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4732115D153CBD3A15C06596 /* Pods_FarmacyTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FD550F691ED6FD5826DF29 /* Pods_FarmacyTracker.framework */; };
+		A970F6BE244B83EE005458F7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6BD244B83EE005458F7 /* SearchViewController.swift */; };
+		A970F6C0244CAEEF005458F7 /* FarmaciesFoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6BF244CAEEF005458F7 /* FarmaciesFoundViewController.swift */; };
+		A970F6C2244CB481005458F7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6C1244CB481005458F7 /* ProfileViewController.swift */; };
+		A970F6C4244DDCA5005458F7 /* SearchMedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6C3244DDCA5005458F7 /* SearchMedTableViewCell.swift */; };
+		A970F6C6244DE128005458F7 /* PrescriptionsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6C5244DE128005458F7 /* PrescriptionsCollectionViewController.swift */; };
+		A970F6CC244EF44A005458F7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6CB244EF44A005458F7 /* TabBarViewController.swift */; };
+		A970F6CE245D8C80005458F7 /* FarmaciesFoundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6CD245D8C80005458F7 /* FarmaciesFoundTableViewCell.swift */; };
+		A970F6D0246A98E2005458F7 /* FarmacyOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6CF246A98E2005458F7 /* FarmacyOnMapViewController.swift */; };
+		A970F6D4246B41FA005458F7 /* RemainderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6D3246B41FA005458F7 /* RemainderTableViewCell.swift */; };
+		A970F6D8246B4313005458F7 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6D7246B4313005458F7 /* LocalNotification.swift */; };
+		A970F6DA246BCB18005458F7 /* AddRemainderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6D9246BCB18005458F7 /* AddRemainderViewController.swift */; };
+		A970F6DC246BE600005458F7 /* MainPrescriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6DB246BE600005458F7 /* MainPrescriptionsViewController.swift */; };
+		A970F6DE246C2338005458F7 /* PrescriptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970F6DD246C2338005458F7 /* PrescriptionCollectionViewCell.swift */; };
+		A9935037244B65FE00D8BCA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9935036244B65FE00D8BCA9 /* AppDelegate.swift */; };
+		A9935039244B65FE00D8BCA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9935038244B65FE00D8BCA9 /* SceneDelegate.swift */; };
+		A993503B244B65FE00D8BCA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993503A244B65FE00D8BCA9 /* ViewController.swift */; };
+		A993503E244B65FE00D8BCA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A993503C244B65FE00D8BCA9 /* Main.storyboard */; };
+		A9935040244B65FF00D8BCA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A993503F244B65FF00D8BCA9 /* Assets.xcassets */; };
+		A9935043244B65FF00D8BCA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9935041244B65FF00D8BCA9 /* LaunchScreen.storyboard */; };
+		A993504B244B69F000D8BCA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A993504A244B69F000D8BCA9 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28A531816FCA1C2AC0F75FE7 /* Pods-FarmacyTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmacyTracker.debug.xcconfig"; path = "Target Support Files/Pods-FarmacyTracker/Pods-FarmacyTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		76FD550F691ED6FD5826DF29 /* Pods_FarmacyTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FarmacyTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A970F6BD244B83EE005458F7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A970F6BF244CAEEF005458F7 /* FarmaciesFoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmaciesFoundViewController.swift; sourceTree = "<group>"; };
+		A970F6C1244CB481005458F7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A970F6C3244DDCA5005458F7 /* SearchMedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMedTableViewCell.swift; sourceTree = "<group>"; };
+		A970F6C5244DE128005458F7 /* PrescriptionsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionsCollectionViewController.swift; sourceTree = "<group>"; };
+		A970F6CB244EF44A005458F7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A970F6CD245D8C80005458F7 /* FarmaciesFoundTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmaciesFoundTableViewCell.swift; sourceTree = "<group>"; };
+		A970F6CF246A98E2005458F7 /* FarmacyOnMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmacyOnMapViewController.swift; sourceTree = "<group>"; };
+		A970F6D3246B41FA005458F7 /* RemainderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainderTableViewCell.swift; sourceTree = "<group>"; };
+		A970F6D7246B4313005458F7 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		A970F6D9246BCB18005458F7 /* AddRemainderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRemainderViewController.swift; sourceTree = "<group>"; };
+		A970F6DB246BE600005458F7 /* MainPrescriptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPrescriptionsViewController.swift; sourceTree = "<group>"; };
+		A970F6DD246C2338005458F7 /* PrescriptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionCollectionViewCell.swift; sourceTree = "<group>"; };
+		A9935033244B65FE00D8BCA9 /* FarmacyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmacyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9935036244B65FE00D8BCA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9935038244B65FE00D8BCA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A993503A244B65FE00D8BCA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A993503D244B65FE00D8BCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A993503F244B65FF00D8BCA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9935042244B65FF00D8BCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9935044244B65FF00D8BCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A993504A244B69F000D8BCA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FDDB26A78E44FA80312752F0 /* Pods-FarmacyTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FarmacyTracker.release.xcconfig"; path = "Target Support Files/Pods-FarmacyTracker/Pods-FarmacyTracker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9935030244B65FE00D8BCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4732115D153CBD3A15C06596 /* Pods_FarmacyTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD9B6F9A10511DAEEA5BF4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28A531816FCA1C2AC0F75FE7 /* Pods-FarmacyTracker.debug.xcconfig */,
+				FDDB26A78E44FA80312752F0 /* Pods-FarmacyTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BBBBB2D5CC65BF89AB58681 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76FD550F691ED6FD5826DF29 /* Pods_FarmacyTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A993502A244B65FE00D8BCA9 = {
+			isa = PBXGroup;
+			children = (
+				A9935035244B65FE00D8BCA9 /* FarmacyTracker */,
+				A9935034244B65FE00D8BCA9 /* Products */,
+				3DD9B6F9A10511DAEEA5BF4D /* Pods */,
+				5BBBBB2D5CC65BF89AB58681 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9935034244B65FE00D8BCA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9935033244B65FE00D8BCA9 /* FarmacyTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9935035244B65FE00D8BCA9 /* FarmacyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A993504A244B69F000D8BCA9 /* GoogleService-Info.plist */,
+				A9935036244B65FE00D8BCA9 /* AppDelegate.swift */,
+				A9935038244B65FE00D8BCA9 /* SceneDelegate.swift */,
+				A970F6CB244EF44A005458F7 /* TabBarViewController.swift */,
+				A993503A244B65FE00D8BCA9 /* ViewController.swift */,
+				A993503C244B65FE00D8BCA9 /* Main.storyboard */,
+				A970F6DB246BE600005458F7 /* MainPrescriptionsViewController.swift */,
+				A970F6D9246BCB18005458F7 /* AddRemainderViewController.swift */,
+				A970F6D3246B41FA005458F7 /* RemainderTableViewCell.swift */,
+				A970F6CF246A98E2005458F7 /* FarmacyOnMapViewController.swift */,
+				A970F6C5244DE128005458F7 /* PrescriptionsCollectionViewController.swift */,
+				A970F6DD246C2338005458F7 /* PrescriptionCollectionViewCell.swift */,
+				A970F6C3244DDCA5005458F7 /* SearchMedTableViewCell.swift */,
+				A970F6CD245D8C80005458F7 /* FarmaciesFoundTableViewCell.swift */,
+				A970F6C1244CB481005458F7 /* ProfileViewController.swift */,
+				A970F6D7246B4313005458F7 /* LocalNotification.swift */,
+				A970F6BF244CAEEF005458F7 /* FarmaciesFoundViewController.swift */,
+				A970F6BD244B83EE005458F7 /* SearchViewController.swift */,
+				A993503F244B65FF00D8BCA9 /* Assets.xcassets */,
+				A9935041244B65FF00D8BCA9 /* LaunchScreen.storyboard */,
+				A9935044244B65FF00D8BCA9 /* Info.plist */,
+			);
+			path = FarmacyTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9935032244B65FE00D8BCA9 /* FarmacyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9935047244B65FF00D8BCA9 /* Build configuration list for PBXNativeTarget "FarmacyTracker" */;
+			buildPhases = (
+				4405B141E223CC1DA40F7F6D /* [CP] Check Pods Manifest.lock */,
+				A993502F244B65FE00D8BCA9 /* Sources */,
+				A9935030244B65FE00D8BCA9 /* Frameworks */,
+				A9935031244B65FE00D8BCA9 /* Resources */,
+				DAA9A607D3AE56FD8F8A0D43 /* [CP] Embed Pods Frameworks */,
+				6A825F24E6FDDC36931A0465 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmacyTracker;
+			productName = FarmacyTracker;
+			productReference = A9935033244B65FE00D8BCA9 /* FarmacyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A993502B244B65FE00D8BCA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					Cell,
+				);
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Cristina-Gabriela Matei";
+				TargetAttributes = {
+					A9935032244B65FE00D8BCA9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A993502E244B65FE00D8BCA9 /* Build configuration list for PBXProject "FarmacyTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A993502A244B65FE00D8BCA9;
+			productRefGroup = A9935034244B65FE00D8BCA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9935032244B65FE00D8BCA9 /* FarmacyTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9935031244B65FE00D8BCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9935043244B65FF00D8BCA9 /* LaunchScreen.storyboard in Resources */,
+				A993504B244B69F000D8BCA9 /* GoogleService-Info.plist in Resources */,
+				A9935040244B65FF00D8BCA9 /* Assets.xcassets in Resources */,
+				A993503E244B65FE00D8BCA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4405B141E223CC1DA40F7F6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FarmacyTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A825F24E6FDDC36931A0465 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmacyTracker/Pods-FarmacyTracker-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmacyTracker/Pods-FarmacyTracker-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmacyTracker/Pods-FarmacyTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAA9A607D3AE56FD8F8A0D43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmacyTracker/Pods-FarmacyTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FarmacyTracker/Pods-FarmacyTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FarmacyTracker/Pods-FarmacyTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A993502F244B65FE00D8BCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A970F6C2244CB481005458F7 /* ProfileViewController.swift in Sources */,
+				A970F6DC246BE600005458F7 /* MainPrescriptionsViewController.swift in Sources */,
+				A970F6D8246B4313005458F7 /* LocalNotification.swift in Sources */,
+				A970F6D4246B41FA005458F7 /* RemainderTableViewCell.swift in Sources */,
+				A993503B244B65FE00D8BCA9 /* ViewController.swift in Sources */,
+				A970F6CE245D8C80005458F7 /* FarmaciesFoundTableViewCell.swift in Sources */,
+				A9935037244B65FE00D8BCA9 /* AppDelegate.swift in Sources */,
+				A970F6BE244B83EE005458F7 /* SearchViewController.swift in Sources */,
+				A970F6DE246C2338005458F7 /* PrescriptionCollectionViewCell.swift in Sources */,
+				A970F6D0246A98E2005458F7 /* FarmacyOnMapViewController.swift in Sources */,
+				A970F6DA246BCB18005458F7 /* AddRemainderViewController.swift in Sources */,
+				A970F6CC244EF44A005458F7 /* TabBarViewController.swift in Sources */,
+				A9935039244B65FE00D8BCA9 /* SceneDelegate.swift in Sources */,
+				A970F6C4244DDCA5005458F7 /* SearchMedTableViewCell.swift in Sources */,
+				A970F6C6244DE128005458F7 /* PrescriptionsCollectionViewController.swift in Sources */,
+				A970F6C0244CAEEF005458F7 /* FarmaciesFoundViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A993503C244B65FE00D8BCA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A993503D244B65FE00D8BCA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9935041244B65FF00D8BCA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9935042244B65FF00D8BCA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9935045244B65FF00D8BCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9935046244B65FF00D8BCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9935048244B65FF00D8BCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A531816FCA1C2AC0F75FE7 /* Pods-FarmacyTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S7UX9ZMN6;
+				INFOPLIST_FILE = FarmacyTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristinamatei.FarmacyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9935049244B65FF00D8BCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDB26A78E44FA80312752F0 /* Pods-FarmacyTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S7UX9ZMN6;
+				INFOPLIST_FILE = FarmacyTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristinamatei.FarmacyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A993502E244B65FE00D8BCA9 /* Build configuration list for PBXProject "FarmacyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9935045244B65FF00D8BCA9 /* Debug */,
+				A9935046244B65FF00D8BCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9935047244B65FF00D8BCA9 /* Build configuration list for PBXNativeTarget "FarmacyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9935048244B65FF00D8BCA9 /* Debug */,
+				A9935049244B65FF00D8BCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A993502B244B65FE00D8BCA9 /* Project object */;
+}
